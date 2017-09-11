@@ -15,6 +15,7 @@ public class Part2
             }
             curIndex = stringb.indexOf(stringa, curIndex + stringa.length());
         }
+        
         return count;
     }
     
