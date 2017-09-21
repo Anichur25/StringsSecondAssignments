@@ -24,7 +24,7 @@ public class Part2
         String stringb = "ATGAACGAATTGAATC";
         System.out.println(howMany(stringa, stringb));
         stringa = "AA";
-        stringb = "ATAAAA";
+        stringb = "ATAAAATAAA";
         System.out.println(howMany(stringa, stringb));
     }
 }
