@@ -123,10 +123,16 @@ public class Part3 {
         sr = getAllGenes(DNA);
         processGenes(sr);
         sr.clear();
+        
+        FileResource fr = new FileResource("brca1line.fa");
+        String dna = fr.asString();
     }
 
 	public static void main(String[] args) {
-
+		
+		Part3 object = new Part3();
+		
+		object.testProcessGenes();
 
 	}
 
